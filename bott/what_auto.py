@@ -14,9 +14,9 @@ def send_problem():
         # Connect to the MySQL database
         conn = mysql.connector.connect(
             host='localhost',
-            port=3307,  # Adjust your MySQL port if necessary
-            user='root',  # Replace with your MySQL username
-            password='',  # Replace with your MySQL password
+            port=3307, 
+            user='root',  
+            password='',  
             database='coding_problems'
         )
         cursor = conn.cursor()
